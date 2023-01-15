@@ -1,11 +1,11 @@
-.logo_place_header {
+.header__logo {
     width: 176px;
     height: 52px;
     align-self: flex-start;
 }
 
 @media screen and (max-width: 320px) {
-    .logo_place_header {
+    .header__logo {
         width: 142px;
         height: 42px;
     }
