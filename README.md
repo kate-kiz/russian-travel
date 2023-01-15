@@ -21,3 +21,4 @@
 
 **Ссылка на GitHub Pages**
 
+https://kate-kiz.github.io/russian-travel/index.html
