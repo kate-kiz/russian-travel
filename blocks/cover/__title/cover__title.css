@@ -1,0 +1,45 @@
+.cover__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 245px;
+    color: #fff;
+    max-width: 560px;
+    max-height: 152px;
+    z-index: 5;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        padding-top: 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        padding-top: 115px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .cover__title {
+        padding-top: 20%;
+        font-size: 55px;
+        line-height: 57px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 288px;
+        max-height: 77px;
+        padding-top: 33px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -1,0 +1,26 @@
+.place__main-text {
+    margin: 0;
+    max-width: 484px;
+    max-height: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__main-text {
+        max-width: 456px;
+        max-height: 440px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .place__main-text {
+        max-width: 352px;
+        max-height: 441px;
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .place__main-text {
+        max-width: 288px;
+        max-height: 550px;
+    }    
+}

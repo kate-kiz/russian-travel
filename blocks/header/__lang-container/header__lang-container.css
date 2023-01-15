@@ -1,0 +1,8 @@
+.header__lang-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: end;
+    margin: 0;
+    padding: 0;
+}
