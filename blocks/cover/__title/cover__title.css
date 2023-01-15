@@ -3,13 +3,12 @@
     font-style: normal;
     font-size: 72px;
     font-weight: 900;
-    line-height: 76px;
+    line-height: 1.06;
     text-align: center;
     margin: 0 auto;
     padding-top: 245px;
     color: #fff;
     max-width: 560px;
-    max-height: 152px;
     z-index: 5;
     text-decoration: none;
 }
@@ -30,16 +29,14 @@
     .cover__title {
         padding-top: 20%;
         font-size: 55px;
-        line-height: 57px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__title {
         max-width: 288px;
-        max-height: 77px;
         padding-top: 33px;
         font-size: 32px;
-        line-height: 35px;
+        line-height: 1.09;
     }
 }
