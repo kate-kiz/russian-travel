@@ -4,6 +4,7 @@
     grid-template-rows: 1fr;
     gap: 48px 40px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,15 +23,14 @@
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
     .place {
-        grid-template-columns: max-content;
+        grid-template-columns: minmax(min-content, max-content);
         gap: 32px 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place {
-        grid-template-columns: 320px;
-        gap: 32px 0;
-        padding-left: 16px;
+        grid-template-columns: minmax(min-content, max-content);
+        row-gap: 32px;
     }    
 }
