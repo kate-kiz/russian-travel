@@ -6,6 +6,7 @@
     line-height: 1.1;
     max-width: 460px;
     margin: 0;
+    padding: 0;
     text-align: left;
 }
 
@@ -19,7 +20,7 @@
     .place__title {
         max-width: 340px;
         font-size: 42px;
-        line-height: 46px;
+        align-self: end;
     }    
 }
 

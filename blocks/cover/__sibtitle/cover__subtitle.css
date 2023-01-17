@@ -20,6 +20,11 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        padding-bottom: 115px;
+    }
+}
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
     .cover__subtitle {
