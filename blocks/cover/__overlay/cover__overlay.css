@@ -1,6 +1,6 @@
 .cover__overlay {
     background: rgba(1, 1, 1, 0.3);
-    min-width: 100%;
+    max-width: 100%;
     min-height: 100%;
     margin: 0;
     padding: 0;
@@ -9,33 +9,3 @@
 .cover__overlay:hover {
     background: rgba(1, 1, 1, 0.8);
 }
-
-/**
-@media screen and (max-width: 1024px) {
-    .cover__overlay {
-        min-width: 100%;
-        min-height: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover__overlay {
-        min-width: 768px;
-        min-height: 480px;
-    }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-    .cover__overlay {
-        min-width: fit-content;
-        min-height: fit-content;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover__overlay {
-        min-width: 320px;
-        min-height: 200px;
-    }
-}
-**/
