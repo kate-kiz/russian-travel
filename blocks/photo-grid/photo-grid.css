@@ -37,5 +37,6 @@
     .photo-grid {
         max-width: 288px;
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        margin-top: 64px;
     }
 }

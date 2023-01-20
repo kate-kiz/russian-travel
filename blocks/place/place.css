@@ -1,6 +1,7 @@
 .place {
     display: grid;
     grid-template-columns: 460px 1fr;
+    grid-template-rows: min-content min-content;
     gap: 48px 40px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -16,6 +17,7 @@
 @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: 340px 1fr;
+        gap: 48px 28px;
     }    
 }
 
