@@ -21,6 +21,7 @@
         max-width: 720px;
         grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
         margin-top: 88px;
+        gap: 16px;
     }
 }
 
